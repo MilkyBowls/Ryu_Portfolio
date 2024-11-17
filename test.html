@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>50-50 Inline Elements</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* Two equal columns */
+      width: 100%;
+      height: 100vh;
+    }
+
+    .half {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #000; /* Optional, for visibility */
+      box-sizing: border-box; /* Includes borders in the width */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="half" style="background-color: lightblue;">Left Side</div>
+    <div class="half" style="background-color: lightgreen;">Right Side</div>
+  </div>
+</body>
+</html>
