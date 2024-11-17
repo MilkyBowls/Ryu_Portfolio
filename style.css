@@ -1,14 +1,10 @@
-p {
-    color: blue;
-  }
-
-
  /* Style the navbar */
  #navbar {
   position: sticky;
   top: 0;
   overflow: hidden;
   background-color: #3a5485;
+  z-index: 1;
 }
 /* Navbar links */
 #navbar a {
@@ -31,8 +27,24 @@ p {
   color: white;
 }
 
-
 /* Page content */
 .content {
   padding: 16px;
 } 
+
+#about {
+  padding-top: 30px;
+}
+
+#projects {
+  padding-top: 30px;
+}
+
+#hireme {
+  padding-top: 30px;
+}
+
+#space {
+  height: 1000px;
+}
+
