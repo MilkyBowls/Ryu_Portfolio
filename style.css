@@ -113,15 +113,16 @@ html {
 
 .containerblack {
   width: 100%;
-  height: 100vh; /* Full viewport height */
+  height: 95vh; /* Full viewport height */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;    /* Center vertically */
+  background-image: url(https://cdn2.steamgriddb.com/hero/889fbd1aec443cef389ea10c93b498d8.jpg);
+  background-size: 100%;
+  background-position: center;
 }
 
 script {
   object-fit: contain;
 }
 
-.blkjk {
-  display: block;
-  width: 100px;
-  height: 100px;
-}
