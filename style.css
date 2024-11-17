@@ -97,7 +97,6 @@ html {
 
 .sotlogo {
     height: 70%;
-    width: 70%;
     object-fit: contain;
     filter: drop-shadow(0 0 0.75rem gold);
     transition: transform 0.3s ease-in;
@@ -122,3 +121,9 @@ script {
   object-fit: contain;
 }
 
+.vaposecret {
+  height: 5%;
+  position: absolute;
+  bottom: 55%;
+  right: 1px;
+}
