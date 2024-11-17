@@ -1,5 +1,4 @@
-
-/* Style the navbar */
+ /* Style the navbar */
  #navbar {
   position: sticky;
   top: 0;
@@ -90,9 +89,10 @@
     width: 70%;
     object-fit: contain;
     filter: drop-shadow(0 0 0.75rem gold);
-    transition: transform 0.3s ease-in;
 }
 
 .sotlogo:hover {
-    transform: scale(1.2);
+    object-fit: contain;
+    height: 85%;
+    width: 85%;
 }
