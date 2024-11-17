@@ -1,4 +1,5 @@
- /* Style the navbar */
+
+/* Style the navbar */
  #navbar {
   position: sticky;
   top: 0;
@@ -27,10 +28,10 @@
   color: white;
 }
 
-/* Page content */
+/* Page content
 .content {
   padding: 16px;
-} 
+}  */
 
 #about {
   padding-top: 30px;
@@ -72,4 +73,26 @@
 .container_half {
     display: flex;
     justify-content: center;
+}
+
+.banner {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    background-image: url(https://cdn2.steamgriddb.com/hero/889fbd1aec443cef389ea10c93b498d8.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 45vh;
+}
+
+.sotlogo {
+    height: 70%;
+    width: 70%;
+    object-fit: contain;
+    filter: drop-shadow(0 0 0.75rem gold);
+    transition: transform 0.3s ease-in;
+}
+
+.sotlogo:hover {
+    transform: scale(1.2);
 }
