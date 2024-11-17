@@ -110,3 +110,18 @@ html {
 .sotlogo:hover {
     transform: scale(1.2);
 }
+
+.containerblack {
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+}
+
+script {
+  object-fit: contain;
+}
+
+.blkjk {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
