@@ -43,10 +43,6 @@ html {
   padding: 16px;
 }  */
 
-#home {
-  padding-top: 50px;
-}
-
 #about {
   padding-top: 50px;
 }
@@ -117,7 +113,7 @@ html {
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center;    /* Center vertically */
-  background-image: url(https://cdn2.steamgriddb.com/hero/889fbd1aec443cef389ea10c93b498d8.jpg);
+  background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWRmb291bnNqeTJ4bWo2cGIyZnF4aWJtcm9vY3Y4dHFqeHFoZjI2NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gIODGWDBuG5AWlUExJ/giphy.webp);
   background-size: 100%;
   background-position: center;
 }
