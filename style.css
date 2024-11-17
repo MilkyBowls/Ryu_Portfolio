@@ -1,4 +1,14 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 /* Style the navbar */
  #navbar {
   position: sticky;
@@ -33,16 +43,20 @@
   padding: 16px;
 }  */
 
+#home {
+  padding-top: 50px;
+}
+
 #about {
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 #projects {
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 #hireme {
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 #space {
