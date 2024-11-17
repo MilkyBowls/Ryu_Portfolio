@@ -98,12 +98,13 @@ html {
 .sotlogo {
     height: 70%;
     object-fit: contain;
-    filter: drop-shadow(0 0 0.75rem gold);
-    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in, filter 0.3s ease-in ;
+    filter: drop-shadow(5px 5px 5px #222);
 }
 
 .sotlogo:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 7px #80d5ad);
 }
 
 .containerblack {
@@ -126,4 +127,19 @@ script {
   position: absolute;
   bottom: 55%;
   right: 1px;
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.ryugarf {
+  height: 30%;
+  position: absolute;
+  top: 17%;
+  left: 1px;
+  
+
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+
+  filter: drop-shadow(5px 5px 5px #222);
+
 }
